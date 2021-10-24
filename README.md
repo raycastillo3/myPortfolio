@@ -5,7 +5,7 @@
 
 # What I used so far?
 • JavaScript
-• React & Next JS 
+• Next JS 
 • HTML & CSS 
  
 
