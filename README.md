@@ -4,9 +4,9 @@
 • This is my website portfolio! It is a work in progress (not 100% completed). I plan on adding more functionalities. The purpose of my portfolio website is to be a fully functional web page application. 
 
 # What I used so far?
-• JavaScript
-• Next JS 
-• HTML & CSS 
+ • JavaScript
+ • Next JS 
+ • HTML & CSS 
  
 
 # How to run?
