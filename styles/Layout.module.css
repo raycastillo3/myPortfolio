@@ -1,12 +1,8 @@
-.header{
-    border-bottom: 1px solid #E2E8F0;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
+    align-items: right;
+    padding: .5rem;
 }
 
 .hamburger {
@@ -20,13 +16,13 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #222222;
+    background-color: #000000;
 }
 
 .navmenu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
 }
 
 .navitem {
@@ -34,9 +30,9 @@
 }
 
 .navlink{
-    font-size: 2rem;
-    font-weight: 400;
-    color: #475569;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000000;
     text-transform: uppercase;
 }
 
@@ -56,7 +52,7 @@
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: rgb(255, 255, 255);
         width: 100%;
         border-radius: 10px;
         text-align: center;
