@@ -2,11 +2,10 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Typography, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, cardClasses} from '@mui/material'
 import useStyles from './components/styles'
-import raypic from './images/raypic.png'
 import MediaControlCard from './components/MediaControlCard'
 
 
-const cards = [{ id: 0, title: 'Project #1', description: 'Coming soon!', image: '<img src="./images/raypic.png">', codeUrl: 'github.com/project1', videoUrl: 'https://www.youtube.com' },
+const cards = [{ id: 0, title: 'Project #1', description: 'Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'https://www.youtube.com' },
 { id: 1, title: 'Project #2', description: 'Also Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
 { id: 2, title: 'Project #3', description: 'Underconstruction!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
 { id: 3, title: 'Project #4', description: 'In production!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
