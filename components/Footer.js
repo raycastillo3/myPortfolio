@@ -1,5 +1,5 @@
-import styles2 from '../../styles/Home.module.css';
-import styles from '../../styles/Layout.module.css';
+import styles2 from '../styles/Home.module.css';
+import styles from '../styles/Layout.module.css';
 import Image from 'next/image'
 
 

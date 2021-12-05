@@ -1,5 +1,5 @@
 import { Typography, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, cardClasses, Link} from '@mui/material'
-import useStyles from './components/styles'
+import useStyles from '../components/styles'
 
 
 const cards = [{ id: 0, title: 'Project #1', description: 'Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'https://github.com/raycastillo3', videoUrl: 'https://www.youtube.com' },

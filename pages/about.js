@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { CssBaseline, Typography, Container}from '@mui/material'
-import useStyles from './components/styles'
-import MainFeaturedPic from './components/MainFeaturedPic'
+import useStyles from '../components/styles'
+import MainFeaturedPic from '../components/MainFeaturedPic'
 
 
 
