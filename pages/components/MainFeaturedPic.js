@@ -15,7 +15,7 @@ function MainFeaturedPic (props){
 
     return (
     <Paper 
-        sx={{
+        sx={{ 
         postion: 'center',
         backgroundColor: 'grey.800',
         color: '#fff',
@@ -27,7 +27,7 @@ function MainFeaturedPic (props){
         backgroundImage: `url(${pic.image})`,
         }}
         >
-        {<img style={{ display:'none'}} src={pic.image} alt={pic.imageText}/>}
+        {<img style={{ display:'none'}} src={pic.image} alt={pic.imageText} />}
         <Grid container > 
             <Grid item md={6} >
                 <Box 

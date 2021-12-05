@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { CssBaseline, Typography, Container, Footer}from '@mui/material'
+import { CssBaseline, Typography, Container}from '@mui/material'
 import useStyles from './components/styles'
 import MainFeaturedPic from './components/MainFeaturedPic'
 
@@ -35,9 +35,9 @@ export default function About() {
           I am aware that there are so many things to learn, and yet I still have the same motivation. I am excited and grateful to be part of the STEM community.  
           </Typography>
         </Container>
-<Container align='center'>
+      <Container align='center'>
 
-</Container>
+      </Container>
 
         </main>
 
