@@ -12,9 +12,8 @@ import {SkipNextIcon} from '@mui/icons-material/SkipNext'
 
 
 
-function MediaControlCard() {
-    const theme = useTheme();
-    
+export default function MediaControlCard() {
+    const theme = useTheme()
   
     return (
       <Card sx={{ display: 'flex' }}>
@@ -46,7 +45,7 @@ function MediaControlCard() {
           alt="Live from space album cover"
         />
       </Card>
-    );
+    )
   }
 
-  export default MediaControlCard
+   

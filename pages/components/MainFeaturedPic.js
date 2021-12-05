@@ -15,7 +15,8 @@ function MainFeaturedPic (props){
 
     return (
     <Paper 
-        sx={{postion: 'center',
+        sx={{
+        postion: 'center',
         backgroundColor: 'grey.800',
         color: '#fff',
         mb: 6,
@@ -26,10 +27,9 @@ function MainFeaturedPic (props){
         backgroundImage: `url(${pic.image})`,
         }}
         >
-        {/**increase the priority of my main picture */}
         {<img style={{ display:'none'}} src={pic.image} alt={pic.imageText}/>}
-        <Grid container> 
-            <Grid item md={6}>
+        <Grid container > 
+            <Grid item md={6} >
                 <Box 
                 sx={{
                     position: 'relative',
@@ -37,12 +37,8 @@ function MainFeaturedPic (props){
                     pr: {md: 0},
                 }}
                 >
-
                 </Box>
-                
-                
             </Grid>
-           
         </Grid>  
             <Grid>
             <Card className={classes.card}>
@@ -54,25 +50,11 @@ function MainFeaturedPic (props){
                         {pic.description}
                     </Typography>
             </CardContent>
-            
             </Card>
-            
             </Grid>
-                    
-                
         </Paper>
     
 
-        
-     
-             
-       
-
-    
-
-
-    
-  
     )
 }
 

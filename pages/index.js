@@ -1,15 +1,12 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import { Typography, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, cardClasses} from '@mui/material'
+import { Typography, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, cardClasses, Link} from '@mui/material'
 import useStyles from './components/styles'
-import MediaControlCard from './components/MediaControlCard'
 
 
-const cards = [{ id: 0, title: 'Project #1', description: 'Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'https://www.youtube.com' },
+const cards = [{ id: 0, title: 'Project #1', description: 'Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'https://github.com/raycastillo3', videoUrl: 'https://www.youtube.com' },
 { id: 1, title: 'Project #2', description: 'Also Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
 { id: 2, title: 'Project #3', description: 'Underconstruction!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
 { id: 3, title: 'Project #4', description: 'In production!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
-{ id: 4, title: 'Project #5', description: 'Hahaha!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
+{ id: 4, title: 'Project #5', description: 'release date: 6/22/22!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
 { id: 5, title: 'Project #6', description: 'New project!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' }];
 
 
@@ -41,21 +38,20 @@ const classes = useStyles()
                   title={card.title}
                 />
                 <CardContent className={classes.CardContent}>
-                  <Typography gutterBottom variant="h5"> 
+                  <Typography align="center" gutterBottom variant="h5"> 
                   {card.title}{/*Heading*/}
                   </Typography>
-                  <Typography>
+                  <Typography align="center">
                   {card.description}{/*project description*/}
                   </Typography>
                 </CardContent>
-                <cardActions>
-                  <Button size="small" color="primary"> View Code </Button>
-                  <Button size="small" color="primary"> View Video</Button>
+                <cardActions align="center">
+                  <Link color="primary"> View Code </Link>
+                  {/*<Button size="small" color="primary"> View Video</Button>*/}
                 </cardActions>
               </Card>
             </Grid>
           ))}
-          
           </Grid>
         </Container>
       </main>

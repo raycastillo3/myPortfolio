@@ -11,9 +11,13 @@ export default function Blog() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a> My Blog!</a>
-        </h1>
+        <h3 className={styles.title}>
+          Welcome to <a>My Blog Page!</a>
+        </h3>
+        <h4> Coming soon! </h4>
+        <h5> This website is a work in process. I am still working on this site </h5>
+
+        
       </main>
 
     </div>
