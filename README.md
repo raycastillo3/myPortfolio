@@ -13,3 +13,4 @@
 To run on your local computer first clone repository, then run the development server:
 `npm run dev`
 
+View live <https://rays-portfolio.vercel.app/> 
