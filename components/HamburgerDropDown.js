@@ -19,9 +19,15 @@ export default function HamburgerDropDown (){
                      <a className={styles.navlink}>Projects</a>
                  </Link>
              </li>
+            
              <li className={styles.navitem}>
                  <Link href='/about'>
                      <a className={styles.navlink}>About Me</a>
+                 </Link>
+             </li>
+             <li className={styles.navitem}>
+                 <Link href='/wallOfFame'>
+                     <a className={styles.navlink}>Wall of Fame</a>
                  </Link>
              </li>
              <li className={styles.navitem}>
@@ -33,6 +39,7 @@ export default function HamburgerDropDown (){
          <button className={isOpen === false ?
                              styles.hamburger : styles.hamburger + ' '+ styles.active }
                              onClick={openMenu}>
+             <span className={styles.bar}></span>
              <span className={styles.bar}></span>
              <span className={styles.bar}></span>
              <span className={styles.bar}></span>

@@ -48,6 +48,9 @@ const useStyles = makeStyles((theme) =>({
   },
   myName: {
       fontFamily: 'serif'
+  },
+  link: {
+      textDecoration: 'none'
   }
 }))
 

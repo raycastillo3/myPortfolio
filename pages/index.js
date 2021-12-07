@@ -46,9 +46,12 @@ const classes = useStyles()
                   </Typography>
                 </CardContent>
                 <cardActions align="center">
-                  <Link color="primary"> View Code </Link>
-                  {/*<Button size="small" color="primary"> View Video</Button>*/}
+                  <Link className={classes.link} color="primary">View Code</Link>
                 </cardActions>
+                <cardActions align="center">
+                  <Link className={classes.link} color="primary"> View Project</Link>
+                  {/*<Button size="small" color="primary"> View Video</Button>*/}
+                  </cardActions>
               </Card>
             </Grid>
           ))}
