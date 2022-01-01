@@ -8,9 +8,7 @@ export default function Footer (){
 
     return (
         <div className={styles2.container}>
-            <footer className={styles2.footer}>
-                <a>
-                Footer
+            <footer className={styles2.footer}><a>
                 <span className={styles.logo}>
                     <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
                 </span>

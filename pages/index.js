@@ -5,7 +5,7 @@ import useStyles from '../components/styles'
 
 const cards = [{ 
     id: 0, title: 'Cryptosystems', 
-    description: 'Built two Cryptosystems using Java. Caeser Cipher is one of most easy, used and most famous encryption systems known for its shifting mechanism. The Railfence cipher is an easy to apply transposition cipher that mixes up the order of the letters of a message in a quick way to encrypt the message.', 
+    description: 'Built two Cryptosystems(Caeser and Railfence cipher) using Java. Caeser Cipher is one of most easy, used and most famous encryption systems known for its shifting mechanism. The Railfence cipher is an easy to apply transposition cipher that mixes up the order of the letters of a message in a quick way to encrypt the message.', 
     image: 'https://cdn01.alison-static.net/courses/2495/alison_courseware_intro_2495.jpg', 
     codeUrl: 'https://github.com/raycastillo3/Cryptosystem', 
     videoUrl: 'https://www.youtube.com' },
