@@ -42,7 +42,7 @@ export default function MediaControlCard() {
         <CardMedia
           component="img"
           sx={{ width: 151 }}
-          image="/static/images/cards/live-from-space.jpg"
+          image="https://source.unsplash.com/random"
           alt="Live from space album cover"
         />
       </Card>

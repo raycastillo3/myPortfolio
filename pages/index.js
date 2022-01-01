@@ -1,13 +1,38 @@
-import { Typography, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, cardClasses, Link} from '@mui/material'
+import { Typography, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, cardClasses, Link, CardActions} from '@mui/material'
 import useStyles from '../components/styles'
 
 
-const cards = [{ id: 0, title: 'Project #1', description: 'Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'https://github.com/raycastillo3', videoUrl: 'https://www.youtube.com' },
-{ id: 1, title: 'Project #2', description: 'Also Coming soon!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
-{ id: 2, title: 'Project #3', description: 'Underconstruction!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
-{ id: 3, title: 'Project #4', description: 'In production!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
-{ id: 4, title: 'Project #5', description: 'release date: 6/22/22!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' },
-{ id: 5, title: 'Project #6', description: 'New project!', image: 'https://source.unsplash.com/random', codeUrl: 'github.com/project1', videoUrl: 'youtube.com/project1' }];
+
+const cards = [{ 
+    id: 0, title: 'Cryptosystems', 
+    description: 'Built two Cryptosystems using Java. Caeser Cipher is one of most easy, used and most famous encryption systems known for its shifting mechanism. The Railfence cipher is an easy to apply transposition cipher that mixes up the order of the letters of a message in a quick way to encrypt the message.', 
+    image: 'https://cdn01.alison-static.net/courses/2495/alison_courseware_intro_2495.jpg', 
+    codeUrl: 'https://github.com/raycastillo3/Cryptosystem', 
+    videoUrl: 'https://www.youtube.com' },
+    { id: 1, title: 'Project #2', 
+    description: 'Also Coming soon!', 
+    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
+    codeUrl: 'github.com/project1', 
+    videoUrl: 'youtube.com/project1' },
+    { id: 2, title: 'Project #3', 
+    description: 'Coming soon!', 
+    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
+    codeUrl: 'github.com/project1', videoUrl: 'https://www.youtube.com'},
+    { id: 3, title: 'Project #4', 
+    description: 'Coming soon!', 
+    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
+    codeUrl: 'github.com/project1', 
+    videoUrl: 'youtube.com/project1' },
+    { id: 4, title: 'Project #5', 
+    description: 'Coming soon!', 
+    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
+    codeUrl: 'github.com/project1', 
+    videoUrl: 'youtube.com/project1' },
+    { id: 5, title: 'Project #6', 
+    description: 'Coming soon!', 
+    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
+    codeUrl: 'github.com/project1', 
+    videoUrl: 'youtube.com/project1' }];
 
 
 function Home() {
@@ -46,12 +71,13 @@ const classes = useStyles()
                   </Typography>
                 </CardContent>
                 <cardActions align="center">
-                  <Link className={classes.link} color="primary">View Code</Link>
+                  <Button size="small" color="primary" href="https://github.com/raycastillo3/">
+                  View Code
+                  </Button>
                 </cardActions>
-                <cardActions align="center">
-                  <Link className={classes.link} color="primary"> View Project</Link>
-                  {/*<Button size="small" color="primary"> View Video</Button>*/}
-                  </cardActions>
+                <cardActions align="center" >
+                  <Button size="small" color="primary"> View Project</Button>
+                </cardActions>
               </Card>
             </Grid>
           ))}
