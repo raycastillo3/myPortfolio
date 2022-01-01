@@ -16,7 +16,7 @@ export default function Footer (){
                 </span>
                 </a>
             </footer>
-            <h7> the footer is a work in progress</h7>
+            <h7> This website/my portfolio is a work in progress. I implement new features and functionality as I learn.</h7>
         </div>
     )
         
