@@ -46,7 +46,7 @@ const classes = useStyles()
           <Container maxWidth="sm">
             <Typography className={classes.mainTitle} variant="h4" align="center" color="textPrimary" gutterBottom >Welcome to  <a href="https://github.com/raycastillo3"> Ray's Portfolio</a> </Typography>
             <Typography className={classes.mainDescription} variant="h5" align="center" color="textSecondary" paragraph>
-            Hello everyone, welcome to my portfolio in which you can find all projects with JavaScript and some of its libraries like Next.JS and React.JS 
+            Hello everyone, welcome to my portfolio in which you can find all projects with JavaScript and some of its libraries like Next.JS and React.JS
             </Typography>
             <div className={classes.buttons}>
             </div> 

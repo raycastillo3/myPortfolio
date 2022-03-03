@@ -8,8 +8,7 @@ export default function Header (){
     <CssBaseline />
     <AppBar position="relative">
       <Toolbar>
-        <Typography className={classes.navTitle} variant="h6" >
-          Front-End  
+        <Typography className={classes.navTitle} variant="h6">  
           <a href="https://github.com/raycastillo3"> Software Developer</a> 
         </Typography>
       </Toolbar> 

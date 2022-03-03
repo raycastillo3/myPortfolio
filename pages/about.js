@@ -16,15 +16,15 @@ const header = {
 
 
 export default function About() {
-  
   const classes = useStyles ()
-  const mainFeaturedPost= {
+  const mainPicture= {
     title: 'Raymond Castillo',
     description: 
       'Software Developer',
-    image: 'https://source.unsplash.com/random',
+    image: '../components/MainFeaturedPic',
     imageText: 'main image Description'
   }
+  
   return (
     <>
       <Head>
@@ -33,10 +33,10 @@ export default function About() {
      
       <main>
         <CssBaseline/>
-        <Container maxWidth= 'xs' >
-         <MainFeaturedPic pic={mainFeaturedPost}/> 
+        <Container maxWidth='xs' >
+         <MainFeaturedPic pic={mainPicture}/> 
         </Container>
-        
+        <header/>
         <Container justifyContent="center" maxWidth="md">
           <Typography maxWidth="md" align="center" justify="center" className={classes.mainDescription} variant="h6" color="textSecondary" paragraph gutterBottom > 
           Ever since I was a kid, I have always enjoyed tearing things apart. I remember dissembling every console, and computer I owned. As I got older, I started to question how all these electronics work. Back then, I did not know what I was doing, but I knew the path I wanted to take on. Before going to college, I spent my time watching many videos and learning more about these devices until I came across Artificial Intelligence(AI). It changed my life!
