@@ -27,10 +27,10 @@ export default function Footer (){
                 <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
                 </span>
                 </a>*/}
-                <Typography variant="h7" color="textPrimary" > Find Me on Social Media </Typography>
+                <Typography variant="h7" color="textPrimary" > Find Me on Social Media! </Typography>
     </footer> 
             <container>
-            <InstagramIcon onClick={event => window.location.href=""} className={classes.clickableIcon} className={classes.clickableIcon} fontSize="large" style={{minWidth: '80px'}}/>
+            <InstagramIcon onClick={event => window.location.href="https://instagram.com"} className={classes.clickableIcon} fontSize="large" style={{minWidth: '80px'}}/>
             <GitHubIcon onClick={event => window.location.href="https://github.com/raycastillo3/"} className={classes.clickableIcon} fontSize="large"  style={{minWidth: '80px'}}/>
             <LinkedInIcon onClick={event => window.location.href="https://www.linkedin.com/in/rcastillo22/"} className={classes.clickableIcon} fontSize="large" style={{minWidth: '80px'}}  />
             </container>

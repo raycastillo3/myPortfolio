@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function HamburgerDropDown (){
     const [isOpen, setIsOpen] = useState(false);
-    const openMenu = ()=> setIsOpen(!isOpen);
+    const openMenu = () => setIsOpen(!isOpen);
 
 
     return <>
