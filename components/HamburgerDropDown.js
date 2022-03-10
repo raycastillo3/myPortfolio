@@ -9,7 +9,6 @@ export default function HamburgerDropDown (){
 
 
     return <>
-   
     <header className={styles.header}>
         <nav className={styles.navbar}>
          <ul className={isOpen === false ?
@@ -19,20 +18,9 @@ export default function HamburgerDropDown (){
                      <a className={styles.navlink}>Projects</a>
                  </Link>
              </li>
-            
              <li className={styles.navitem}>
                  <Link href='/about'>
                      <a className={styles.navlink}>About Me</a>
-                 </Link>
-             </li>
-             <li className={styles.navitem}>
-                 <Link href='/wallOfFame'>
-                     <a className={styles.navlink}>Wall of Fame</a>
-                 </Link>
-             </li>
-             <li className={styles.navitem}>
-                 <Link href='/blog'>
-                     <a className={styles.navlink}>Blog</a>
                  </Link>
              </li>
          </ul>

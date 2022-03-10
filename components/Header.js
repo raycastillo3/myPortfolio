@@ -1,6 +1,6 @@
 import { AppBar, CssBaseline, Menu, MenuList, Toolbar, Typography, Button, Container} from '@mui/material';
 import useStyles from '../components/styles';
-
+import CodeIcon from '@mui/icons-material/Code';
 export default function Header (){
     const classes = useStyles()
 
@@ -9,7 +9,7 @@ export default function Header (){
     <AppBar position="relative">
       <Toolbar>
         <Typography className={classes.navTitle} variant="h6">  
-          <a href="https://github.com/raycastillo3"> Software Developer</a> 
+          <CodeIcon fontSize="large"> </CodeIcon> <a href="https://github.com/raycastillo3"> Full Stack Developer</a> 
         </Typography>
       </Toolbar> 
     </AppBar>
