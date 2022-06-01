@@ -4,35 +4,20 @@ import useStyles from '../components/styles'
 
 
 const cards = [{ 
-    id: 0, title: 'Cryptosystems', 
-    description: 'Built two Cryptosystems(Caeser and Railfence cipher) using Java. Caeser Cipher is one of most easy, used and most famous encryption systems known for its shifting mechanism. The Railfence cipher is an easy to apply transposition cipher that mixes up the order of the letters of a message in a quick way to encrypt the message.', 
+    id: 0, title: 'Caesar Cipher', 
+    description: 'The Caesar Cipher was created by Roman Emperor Julius Caesar so that he could communicate secretly with his army. It is a substitution cipher where each letter is replaced by another letter to encode/decode a secret text. It is also known as the shift cipher.',
     image: 'https://cdn01.alison-static.net/courses/2495/alison_courseware_intro_2495.jpg', 
     codeUrl: 'https://github.com/raycastillo3/Cryptosystem', 
     videoUrl: 'https://www.youtube.com' },
-    { id: 1, title: 'Project #2', 
-    description: 'Also Coming soon!', 
-    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
-    codeUrl: 'github.com/project1', 
+    { id: 1, title: 'Rail Fence Cipher', 
+    description: 'The Rail Fence cipher is a classical type of transposition cipher. It names comes from the manner in which encryption is performed. It is also called a zigzag cipher.', 
+    image: 'https://cdn01.alison-static.net/courses/2495/alison_courseware_intro_2495.jpg', 
+    codeUrl: 'https://github.com/raycastillo3/Cryptosystem', 
     videoUrl: 'youtube.com/project1' },
     { id: 2, title: 'Project #3', 
     description: 'Coming soon!', 
     image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
-    codeUrl: 'github.com/project1', videoUrl: 'https://www.youtube.com'},
-    { id: 3, title: 'Project #4', 
-    description: 'Coming soon!', 
-    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
-    codeUrl: 'github.com/project1', 
-    videoUrl: 'youtube.com/project1' },
-    { id: 4, title: 'Project #5', 
-    description: 'Coming soon!', 
-    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
-    codeUrl: 'github.com/project1', 
-    videoUrl: 'youtube.com/project1' },
-    { id: 5, title: 'Project #6', 
-    description: 'Coming soon!', 
-    image: 'https://image.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg', 
-    codeUrl: 'github.com/project1', 
-    videoUrl: 'youtube.com/project1' }];
+    codeUrl: 'github.com/project1', videoUrl: 'https://www.youtube.com'}];
 
 
 function Home() {
@@ -46,7 +31,7 @@ const classes = useStyles()
           <Container maxWidth="sm">
             <Typography className={classes.mainTitle} variant="h4" align="center" color="textPrimary" gutterBottom >Welcome to  <a href="https://github.com/raycastillo3"> Ray's Portfolio</a> </Typography>
             <Typography className={classes.mainDescription} variant="h5" align="center" color="textSecondary" paragraph>
-            Hello everyone, welcome to my portfolio in which you can find all projects with JavaScript and some of its libraries. Including personal and school projects.
+            Hello everyone, welcome to my portfolio in which you can find all my personal and school projects.
             </Typography>
             <div className={classes.buttons}>
             </div> 

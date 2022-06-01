@@ -9,11 +9,9 @@ export default function Header (){
     <AppBar position="relative">
       <Toolbar>
         <Typography className={classes.navTitle} variant="h6">  
-          <CodeIcon fontSize="large"> </CodeIcon> <a href="https://github.com/raycastillo3"> Full Stack Developer</a> 
+          <CodeIcon fontSize="large"> </CodeIcon> <a href="https://github.com/raycastillo3"> Software Engineer</a> 
         </Typography>
       </Toolbar> 
     </AppBar>
     </>
-    
-    
 }
