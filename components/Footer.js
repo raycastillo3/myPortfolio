@@ -23,10 +23,6 @@ export default function Footer (){
     return (
        <div className={styles2.container}>
          <footer className={styles2.footer}>
-       {/*   <a> <span className={styles.logo}>
-                <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-                </span>
-                </a>*/}
                 <Typography variant="h7" color="textPrimary" > Find Me on Social Media! </Typography>
     </footer> 
             <container>
